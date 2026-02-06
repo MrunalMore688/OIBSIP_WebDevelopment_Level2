@@ -1,4 +1,5 @@
 🧮 Calculator Web Application
+
 📌 Objective
 To create a responsive and interactive calculator using HTML, CSS, and JavaScript that can handle basic arithmetic operations, showcasing practical frontend development skills.
 
@@ -35,4 +36,5 @@ VS Code (or any preferred code editor)
 Modern web browsers (Chrome, Edge, etc.)
 
 🎯 Outcome
+
 A fully working web-based calculator capable of performing real-time calculations with an intuitive interface. This project strengthened my understanding of DOM manipulation, event handling, and JavaScript-based logic.
