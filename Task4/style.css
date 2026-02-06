@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.auth-card {
+  background: white;
+  width: 320px;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.auth-card h1 {
+  margin-bottom: 15px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.tabs button {
+  width: 50%;
+  padding: 8px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tabs .active {
+  background: #667eea;
+  color: white;
+}
+
+input {
+  width: 90%;
+  padding: 9px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+button {
+  width: 100%;
+  padding: 9px;
+  margin-top: 10px;
+  background: #667eea;
+  border: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #556cd6;
+}
+
+.hide {
+  display: none;
+}
+
+#msg {
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.welcome {
+  display: none;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
