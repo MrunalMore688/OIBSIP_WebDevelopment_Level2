@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auth App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="auth-card">
+
+  <h1>Login / Register</h1>
+
+  <div class="tabs">
+    <button id="loginTab" class="active">Login</button>
+    <button id="registerTab">Register</button>
+  </div>
+
+  <div class="form-box">
+
+    <div id="loginForm">
+
+      <input type="text" id="loginUser" placeholder="Username">
+      <input type="password" id="loginPass" placeholder="Password">
+
+      <button onclick="login()">Login</button>
+
+    </div>
+
+    <div id="registerForm" class="hide">
+
+      <input type="text" id="regUser" placeholder="Username">
+      <input type="password" id="regPass" placeholder="Password">
+
+      <button onclick="register()">Register</button>
+
+    </div>
+
+  </div>
+
+  <p id="msg"></p>
+
+</div>
+
+
+<div class="welcome" id="welcomeBox">
+
+  <h2>Hello 👋</h2>
+  <p>You are logged in!</p>
+
+  <button onclick="logout()">Logout</button>
+
+</div>
+
+
+<script src="auth.js"></script>
+</body>
+</html>
